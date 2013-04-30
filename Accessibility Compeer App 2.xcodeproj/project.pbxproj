@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49AE2C5517303D3F001484E5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AE2C5417303D3F001484E5 /* MainViewController.m */; };
+		49E228D4171CF4550018174B /* Nearby-Icon-Active.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E228CE171CF4550018174B /* Nearby-Icon-Active.png */; };
+		49E228D5171CF4550018174B /* Nearby-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E228CF171CF4550018174B /* Nearby-Icon.png */; };
+		49E228D6171CF4550018174B /* Profile-Icon-Active.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E228D0171CF4550018174B /* Profile-Icon-Active.png */; };
+		49E228D7171CF4550018174B /* Profile-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E228D1171CF4550018174B /* Profile-Icon.png */; };
+		49E228D8171CF4550018174B /* Search-Icon-Active.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E228D2171CF4550018174B /* Search-Icon-Active.png */; };
+		49E228D9171CF4550018174B /* Search-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E228D3171CF4550018174B /* Search-Icon.png */; };
+		49E228DB171CF7A00018174B /* Nearby-Icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E228DA171CF7A00018174B /* Nearby-Icon2.png */; };
+		49E228EB171CF8B20018174B /* Profile-Icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E228E2171CF8B20018174B /* Profile-Icon2.png */; };
+		49E228EE171CF8B20018174B /* Search-Icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E228E5171CF8B20018174B /* Search-Icon2.png */; };
+		49E22BAE172F0CD60018174B /* SearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E22BAC172F0CD50018174B /* SearchBar.m */; };
+		49E22BB1172F0CF70018174B /* DisplayBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E22BB0172F0CF70018174B /* DisplayBar.m */; };
+		49E22BC7172F2BF20018174B /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E22BC6172F2BF20018174B /* PreferencesViewController.m */; };
 		DA1F960E1717315500004E1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1F960D1717315500004E1F /* UIKit.framework */; };
 		DA1F96101717315500004E1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1F960F1717315500004E1F /* Foundation.framework */; };
 		DA1F96121717315500004E1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1F96111717315500004E1F /* CoreGraphics.framework */; };
@@ -21,6 +34,8 @@
 		DA1F962E1717315500004E1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1F960F1717315500004E1F /* Foundation.framework */; };
 		DA1F96361717315500004E1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA1F96341717315500004E1F /* InfoPlist.strings */; };
 		DA1F96391717315500004E1F /* Accessibility_Compeer_App_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1F96381717315500004E1F /* Accessibility_Compeer_App_2Tests.m */; };
+		DA1F9644171731F500004E1F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1F9643171731F500004E1F /* RootViewController.m */; };
+		DA1F964A171A42C200004E1F /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1F9649171A42C200004E1F /* DetailView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49AE2C5317303D3F001484E5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		49AE2C5417303D3F001484E5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		49E228CE171CF4550018174B /* Nearby-Icon-Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nearby-Icon-Active.png"; sourceTree = "<group>"; };
+		49E228CF171CF4550018174B /* Nearby-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nearby-Icon.png"; sourceTree = "<group>"; };
+		49E228D0171CF4550018174B /* Profile-Icon-Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Profile-Icon-Active.png"; sourceTree = "<group>"; };
+		49E228D1171CF4550018174B /* Profile-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Profile-Icon.png"; sourceTree = "<group>"; };
+		49E228D2171CF4550018174B /* Search-Icon-Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search-Icon-Active.png"; sourceTree = "<group>"; };
+		49E228D3171CF4550018174B /* Search-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search-Icon.png"; sourceTree = "<group>"; };
+		49E228DA171CF7A00018174B /* Nearby-Icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nearby-Icon2.png"; sourceTree = "<group>"; };
+		49E228E2171CF8B20018174B /* Profile-Icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Profile-Icon2.png"; sourceTree = "<group>"; };
+		49E228E5171CF8B20018174B /* Search-Icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search-Icon2.png"; sourceTree = "<group>"; };
+		49E22BAB172F0CD50018174B /* SearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchBar.h; path = "../../examples xcode/Testbar/Testbar/SearchBar.h"; sourceTree = "<group>"; };
+		49E22BAC172F0CD50018174B /* SearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchBar.m; path = "../../examples xcode/Testbar/Testbar/SearchBar.m"; sourceTree = "<group>"; };
+		49E22BAF172F0CF70018174B /* DisplayBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisplayBar.h; path = "../../examples xcode/Testbar/Testbar/DisplayBar.h"; sourceTree = "<group>"; };
+		49E22BB0172F0CF70018174B /* DisplayBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DisplayBar.m; path = "../../examples xcode/Testbar/Testbar/DisplayBar.m"; sourceTree = "<group>"; };
+		49E22BC5172F2BF10018174B /* PreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreferencesViewController.h; path = "../../Accessibility Compeer App (2)/Accessibility Compeer App 2/PreferencesViewController.h"; sourceTree = "<group>"; };
+		49E22BC6172F2BF20018174B /* PreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreferencesViewController.m; path = "../../Accessibility Compeer App (2)/Accessibility Compeer App 2/PreferencesViewController.m"; sourceTree = "<group>"; };
 		DA1F960A1717315500004E1F /* Accessibility Compeer App 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accessibility Compeer App 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1F960D1717315500004E1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DA1F960F1717315500004E1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +85,10 @@
 		DA1F96351717315500004E1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA1F96371717315500004E1F /* Accessibility_Compeer_App_2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Accessibility_Compeer_App_2Tests.h; sourceTree = "<group>"; };
 		DA1F96381717315500004E1F /* Accessibility_Compeer_App_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Accessibility_Compeer_App_2Tests.m; sourceTree = "<group>"; };
+		DA1F9642171731F500004E1F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DA1F9643171731F500004E1F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DA1F9648171A42C200004E1F /* DetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
+		DA1F9649171A42C200004E1F /* DetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +115,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49E228CD171CF4540018174B /* Tab Bar Retina */ = {
+			isa = PBXGroup;
+			children = (
+				49E228CE171CF4550018174B /* Nearby-Icon-Active.png */,
+				49E228CF171CF4550018174B /* Nearby-Icon.png */,
+				49E228DA171CF7A00018174B /* Nearby-Icon2.png */,
+				49E228D0171CF4550018174B /* Profile-Icon-Active.png */,
+				49E228E2171CF8B20018174B /* Profile-Icon2.png */,
+				49E228E5171CF8B20018174B /* Search-Icon2.png */,
+				49E228D1171CF4550018174B /* Profile-Icon.png */,
+				49E228D2171CF4550018174B /* Search-Icon-Active.png */,
+				49E228D3171CF4550018174B /* Search-Icon.png */,
+			);
+			name = "Tab Bar Retina";
+			path = "../../Logo V2/Tab Bar Retina";
+			sourceTree = "<group>";
+		};
+		49E22942172F0AB60018174B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				49E22BB2172F0CFF0018174B /* SearchDisplay */,
+				49E22BAB172F0CD50018174B /* SearchBar.h */,
+				49E22BAC172F0CD50018174B /* SearchBar.m */,
+				49E22BC5172F2BF10018174B /* PreferencesViewController.h */,
+				49E22BC6172F2BF20018174B /* PreferencesViewController.m */,
+				DA1F9642171731F500004E1F /* RootViewController.h */,
+				DA1F9643171731F500004E1F /* RootViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		49E22BB2172F0CFF0018174B /* SearchDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				49AE2C5317303D3F001484E5 /* MainViewController.h */,
+				49AE2C5417303D3F001484E5 /* MainViewController.m */,
+				DA1F9648171A42C200004E1F /* DetailView.h */,
+				DA1F9649171A42C200004E1F /* DetailView.m */,
+				49E22BAF172F0CF70018174B /* DisplayBar.h */,
+				49E22BB0172F0CF70018174B /* DisplayBar.m */,
+			);
+			name = SearchDisplay;
+			sourceTree = "<group>";
+		};
 		DA1F96011717315500004E1F = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +194,8 @@
 			children = (
 				DA1F961C1717315500004E1F /* AppDelegate.h */,
 				DA1F961D1717315500004E1F /* AppDelegate.m */,
+				49E22942172F0AB60018174B /* ViewControllers */,
+				49E228CD171CF4540018174B /* Tab Bar Retina */,
 				DA1F96141717315500004E1F /* Supporting Files */,
 			);
 			path = "Accessibility Compeer App 2";
@@ -206,6 +288,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				English,
 			);
 			mainGroup = DA1F96011717315500004E1F;
 			productRefGroup = DA1F960B1717315500004E1F /* Products */;
@@ -227,6 +310,15 @@
 				DA1F96201717315500004E1F /* Default.png in Resources */,
 				DA1F96221717315500004E1F /* Default@2x.png in Resources */,
 				DA1F96241717315500004E1F /* Default-568h@2x.png in Resources */,
+				49E228D4171CF4550018174B /* Nearby-Icon-Active.png in Resources */,
+				49E228D5171CF4550018174B /* Nearby-Icon.png in Resources */,
+				49E228D6171CF4550018174B /* Profile-Icon-Active.png in Resources */,
+				49E228D7171CF4550018174B /* Profile-Icon.png in Resources */,
+				49E228D8171CF4550018174B /* Search-Icon-Active.png in Resources */,
+				49E228D9171CF4550018174B /* Search-Icon.png in Resources */,
+				49E228DB171CF7A00018174B /* Nearby-Icon2.png in Resources */,
+				49E228EB171CF8B20018174B /* Profile-Icon2.png in Resources */,
+				49E228EE171CF8B20018174B /* Search-Icon2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +355,12 @@
 			files = (
 				DA1F961A1717315500004E1F /* main.m in Sources */,
 				DA1F961E1717315500004E1F /* AppDelegate.m in Sources */,
+				DA1F9644171731F500004E1F /* RootViewController.m in Sources */,
+				DA1F964A171A42C200004E1F /* DetailView.m in Sources */,
+				49E22BAE172F0CD60018174B /* SearchBar.m in Sources */,
+				49E22BB1172F0CF70018174B /* DisplayBar.m in Sources */,
+				49E22BC7172F2BF20018174B /* PreferencesViewController.m in Sources */,
+				49AE2C5517303D3F001484E5 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +535,7 @@
 				DA1F963E1717315500004E1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA1F963F1717315500004E1F /* Build configuration list for PBXNativeTarget "Accessibility Compeer App 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +544,7 @@
 				DA1F96411717315500004E1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

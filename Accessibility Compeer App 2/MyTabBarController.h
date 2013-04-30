@@ -1,8 +1,8 @@
 //
-//  AppDelegate.h
+//  MyTabBarController.h
 //  Accessibility Compeer App 2
 //
-//  Created by Tyler Morton on 4/11/13.
+//  Created by Borrower on 4/30/13.
 //  Copyright (c) 2013 Tyler Morton. All rights reserved.
 //
 
@@ -10,12 +10,8 @@
 #import "RootViewController.h"
 #import "MainViewController.h"
 #import "PreferencesViewController.h"
-#import "MyTabBarController.h"
+#import "AppDelegate.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
+@interface MyTabBarController : UITabBarController
 @property (strong, nonatomic) NSMutableArray *tabs;
-@property (strong, nonatomic) UITabBarController *tabBarController;
-@property (strong, nonatomic) UIWindow *window;
-
 @end

@@ -11,13 +11,61 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+{ 
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    UINavigationController *nav;
+    self.tabBarController = [[UITabBarController alloc] init];
+    
+    self.tabs = [[NSMutableArray alloc] init];
+    NSArray *listContent = [[NSArray alloc] initWithObjects:
+                            @"Does",
+                            @"This",
+                            @"Work",
+                            nil];
+    
+    MainViewController *myFirstViewController = [[MainViewController alloc] init];
+    myFirstViewController.listContent = listContent;
+    [myFirstViewController setTitle:@"Search"];
+    myFirstViewController.tabBarItem.image = [UIImage imageNamed:@"Search-Icon2.png"];
+    [nav.navigationController setNavigationBarHidden:YES animated:NO];
+    nav = [[UINavigationController alloc] initWithRootViewController:myFirstViewController];
+    [self.tabs addObject:nav];
+    
+    
+    RootViewController *mySecondViewController = [[RootViewController alloc] init];
+    [mySecondViewController setTitle:@"Review"];
+    mySecondViewController.tabBarItem.image = [UIImage imageNamed:@"Nearby-Icon2.png"];
+    //Needed to hide the navBar through transition    
+    if ([mySecondViewController.title isEqualToString:@"Review"])
+    {   [nav.navigationController setNavigationBarHidden:YES animated:NO]; }
+    nav = [[UINavigationController alloc] initWithRootViewController:mySecondViewController];
+    [self.tabs addObject:nav];
+         
+    PreferencesViewController   *myThirdViewController = [[PreferencesViewController alloc] init];
+    [myThirdViewController setTitle:@"Preferences"];
+    myThirdViewController.tabBarItem.image = [UIImage imageNamed:@"Profile-Icon2.png"];
+    self.tabBarController.tabBar.selectedImageTintColor = [UIColor whiteColor];
+    [self.tabs addObject:myThirdViewController];
+    
+    
+    [self.tabBarController setViewControllers:self.tabs];
     [self.window makeKeyAndVisible];
+    [self.window setRootViewController:self.tabBarController];
     return YES;
+    
+
 }
+/*
+static id gGlobalInstanceTabBar = nil;
++ (UITabBarController *) tabBarController
+{
+    if (!gGlobalInstanceTabBar)
+    {
+        gGlobalInstanceTabBar = [[UITabBarController alloc] init];
+    }
+    return gGlobalInstanceTabBar;
+}*/
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
